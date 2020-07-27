@@ -6,6 +6,15 @@ comparison:
   number_of_comparison_results: 1
   aggregate_function: avg
 objectives:
+- sli: node_tickfreq
+  pass:
+  - criteria:
+    - '>5000'
+  warning:
+  - criteria:
+    - '>3000'
+  weight: 1
+  key_sli: false
 - sli: teststep_rt_invoke
   pass:
   - criteria:
@@ -138,6 +147,20 @@ objectives:
     - <5
   weight: 1
   key_sli: false
+- sli: process_memory
+  pass: []
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: process_cpu
+  pass:
+  - criteria:
+    - <20
+  warning:
+  - criteria:
+    - <50
+  weight: 1
+  key_sli: true
 total_score:
   pass: 90%
   warning: 70%
