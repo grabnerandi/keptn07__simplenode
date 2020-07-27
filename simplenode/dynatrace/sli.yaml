@@ -1,5 +1,8 @@
 spec_version: ""
 indicators:
+  node_tickfreq: metricSelector=builtin:tech.nodejs.uvLoop.count:merge(1):merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
+  process_cpu: metricSelector=builtin:tech.generic.cpu.usage:merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
+  process_memory: metricSelector=builtin:tech.generic.mem.workingSetSize:merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
   svc_rt_p50: metricSelector=builtin:service.response.time:percentile(50.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
   svc_rt_p90: metricSelector=builtin:service.response.time:percentile(90.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
   svc_rt_p95: metricSelector=builtin:service.response.time:percentile(95.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
