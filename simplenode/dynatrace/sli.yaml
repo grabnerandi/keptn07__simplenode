@@ -1,0 +1,5 @@
+spec_version: ""
+indicators:
+  svc_rt_p50: metricSelector=builtin:service.response.time:percentile(50.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
+  svc_rt_p90: metricSelector=builtin:service.response.time:percentile(90.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
+  svc_rt_p95: metricSelector=builtin:service.response.time:percentile(95.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
