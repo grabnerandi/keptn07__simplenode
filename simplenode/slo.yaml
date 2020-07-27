@@ -1,4 +1,35 @@
----
-spec_version: '0.1.0'
+spec_version: ""
+filter: {}
 comparison:
+  compare_with: single_result
+  include_result_with_score: pass
+  number_of_comparison_results: 1
+  aggregate_function: avg
 objectives:
+- sli: svc_rt_p95
+  pass:
+  - criteria:
+    - <+10%
+    - <600
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p90
+  pass:
+  - criteria:
+    - <+10%
+    - <550
+  warning: []
+  weight: 1
+  key_sli: false
+- sli: svc_rt_p50
+  pass:
+  - criteria:
+    - <+10%
+    - <500
+  warning: []
+  weight: 1
+  key_sli: false
+total_score:
+  pass: 90%
+  warning: 70%
