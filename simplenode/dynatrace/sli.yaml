@@ -1,5 +1,35 @@
 spec_version: ""
 indicators:
-  svc_rt_p50: metricSelector=builtin:service.response.time:percentile(50.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
-  svc_rt_p90: metricSelector=builtin:service.response.time:percentile(90.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
-  svc_rt_p95: metricSelector=builtin:service.response.time:percentile(95.000000):names;entitySelector=type(SERVICE),mzId(-4317453135721494243)
+  node_tickfreq: metricSelector=builtin:tech.nodejs.uvLoop.count:merge(1):merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(5187714162434089048)
+  process_cpu: metricSelector=builtin:tech.generic.cpu.usage:merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(5187714162434089048)
+  process_memory: metricSelector=builtin:tech.generic.mem.workingSetSize:merge(0):avg:names;entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(5187714162434089048)
+  svc_rt_p50_simplenode.prod.canary: metricSelector=builtin:service.response.time:percentile(50.000000):names:filter(eq(dt.entity.service,simplenode.prod.canary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  svc_rt_p50_simplenode.prod.primary: metricSelector=builtin:service.response.time:percentile(50.000000):names:filter(eq(dt.entity.service,simplenode.prod.primary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  svc_rt_p90_simplenode.prod.canary: metricSelector=builtin:service.response.time:percentile(90.000000):names:filter(eq(dt.entity.service,simplenode.prod.canary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  svc_rt_p90_simplenode.prod.primary: metricSelector=builtin:service.response.time:percentile(90.000000):names:filter(eq(dt.entity.service,simplenode.prod.primary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  svc_rt_p95_simplenode.prod.canary: metricSelector=builtin:service.response.time:percentile(95.000000):names:filter(eq(dt.entity.service,simplenode.prod.canary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  svc_rt_p95_simplenode.prod.primary: metricSelector=builtin:service.response.time:percentile(95.000000):names:filter(eq(dt.entity.service,simplenode.prod.primary));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_fr_echo: metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
+    Step,echo));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_fr_homepage: metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
+    Step,homepage));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_fr_invoke: metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
+    Step,invoke));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_fr_version: metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
+    Step,version));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_echo: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,echo));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_homepage: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,homepage));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_invoke: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,invoke));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_version: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,version));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_echo: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,echo));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_homepage: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,homepage));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_invoke: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,invoke));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_version: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,version));entitySelector=type(SERVICE),mzId(5187714162434089048)
