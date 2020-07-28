@@ -25,3 +25,11 @@ indicators:
     Step,invoke));entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_rt_version: metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
     Step,version));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_echo: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,echo));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_homepage: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,homepage));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_invoke: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,invoke));entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_version: metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,version));entitySelector=type(SERVICE),mzId(5187714162434089048)
