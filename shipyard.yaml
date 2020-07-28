@@ -2,10 +2,7 @@ registry: simplenodeservice
 stages:
   - name: "dev"
     deployment_strategy: "direct"
-    test_strategy: "functional"
-    approval_strategy:
-      pass: "manual"
-      warning: "manual"
+    test_strategy: "performance_fast"
   - name: "staging"
     deployment_strategy: "direct"
     test_strategy: "performance"
