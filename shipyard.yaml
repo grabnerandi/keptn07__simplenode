@@ -4,8 +4,8 @@ stages:
     deployment_strategy: "direct"
     test_strategy: "functional"
     approval_strategy:
-      pass: "automatic"
-      warning: "automatic"
+      pass: "manual"
+      warning: "manual"
   - name: "staging"
     deployment_strategy: "direct"
     test_strategy: "performance"
