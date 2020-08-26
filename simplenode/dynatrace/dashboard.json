@@ -8,7 +8,7 @@
   "id": "311f4aa7-5257-41d7-abd1-70420500e1c8",
   "dashboardMetadata": {
     "name": "KQG;project=keptn07project;service=simplenode;stage=staging",
-    "shared": false,
+    "shared": true,
     "owner": "andreas.grabner@dynatrace.com",
     "sharingDetails": {
       "linkShared": true,
