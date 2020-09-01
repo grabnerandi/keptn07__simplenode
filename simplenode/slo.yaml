@@ -156,7 +156,7 @@ objectives:
     - <5
   weight: 1
   key_sli: false
-- sli: teststep_svccalls_version
+- sli: teststep_svccalls_homepage
   pass:
   - criteria:
     - <2
@@ -165,7 +165,7 @@ objectives:
     - <5
   weight: 1
   key_sli: false
-- sli: teststep_svccalls_homepage
+- sli: teststep_svccalls_version
   pass:
   - criteria:
     - <2
