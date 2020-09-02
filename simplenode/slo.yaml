@@ -111,7 +111,7 @@ objectives:
     - <10
   weight: 1
   key_sli: true
-- sli: teststep_fr_version
+- sli: teststep_fr_homepage
   pass:
   - criteria:
     - <5
@@ -120,7 +120,7 @@ objectives:
     - <10
   weight: 1
   key_sli: true
-- sli: teststep_fr_homepage
+- sli: teststep_fr_version
   pass:
   - criteria:
     - <5
