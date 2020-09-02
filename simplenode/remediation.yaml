@@ -1,0 +1,12 @@
+apiVersion: spec.keptn.sh/0.1.4
+kind: Remediation
+metadata:
+  name: my-remediation
+spec:
+  remediations:
+    - problemType: Failure rate increase
+      actionsOnOpen:
+        - action: rollback
+          name: rollback to previous version
+          description: Lets roll back to the previous known good version
+          value: "1"
