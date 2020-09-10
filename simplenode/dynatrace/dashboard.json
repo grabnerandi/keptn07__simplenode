@@ -757,6 +757,99 @@
         },
         "filtersPerEntityType": {}
       }
+    },
+    {
+      "name": "Service health",
+      "tileType": "SERVICES",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "",
+      "Markdown": "",
+      "bounds": {
+        "top": 76,
+        "left": 1634,
+        "width": 152,
+        "height": 228
+      },
+      "tileFilter": {
+        "timeframe": null,
+        "managementZone": null
+      },
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": {}
+      }
+    },
+    {
+      "name": "Host health",
+      "tileType": "HOSTS",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "",
+      "Markdown": "",
+      "bounds": {
+        "top": 304,
+        "left": 1634,
+        "width": 152,
+        "height": 228
+      },
+      "tileFilter": {
+        "timeframe": null,
+        "managementZone": null
+      },
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": {}
+      }
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "query": "",
+      "type": "",
+      "CustomName": "",
+      "Markdown": "## Links\n[Keptn Bridge](http://keptn.keptn07-agrabner.demo.keptn.sh/bridge/project/keptn07project)",
+      "bounds": {
+        "top": 0,
+        "left": 1634,
+        "width": 152,
+        "height": 76
+      },
+      "tileFilter": {
+        "timeframe": null,
+        "managementZone": null
+      },
+      "filterConfig": {
+        "type": "",
+        "customName": "",
+        "defaultName": "",
+        "chartConfig": {
+          "legendShown": false,
+          "type": "",
+          "series": null,
+          "resultMetadata": {}
+        },
+        "filtersPerEntityType": {}
+      }
     }
   ]
 }
