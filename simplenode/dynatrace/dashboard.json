@@ -3,7 +3,7 @@
     "configurationVersions": [
       3
     ],
-    "clusterVersion": "1.202.67.20200916-115718"
+    "clusterVersion": "1.202.80.20200921-133947"
   },
   "id": "311f4aa7-5257-41d7-abd1-70420500e1c8",
   "dashboardMetadata": {
@@ -124,7 +124,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=70%;KQG.Compare.WithScore=pass;KQG.Compare.Results=1;KQG.Compare.Function=avg",
+      "Markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=70%;KQG.Compare.WithScore=pass;KQG.Compare.Results=1;KQG.Compare.Function=avg;",
       "bounds": {
         "top": 0,
         "left": 0,
@@ -168,7 +168,7 @@
       },
       "filterConfig": {
         "type": "MIXED",
-        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c+10%,\u003c600",
+        "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c+10%,\u003c600;",
         "defaultName": "Custom chart",
         "chartConfig": {
           "legendShown": true,
