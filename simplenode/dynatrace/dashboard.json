@@ -124,7 +124,7 @@
       "query": "",
       "type": "",
       "CustomName": "",
-      "Markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=70%;KQG.Compare.WithScore=pass;KQG.Compare.Results=1;KQG.Compare.Function=avg;",
+      "Markdown": "KQG.Total.Pass=90%;KQG.Total.Warning=70%;KQG.Compare.WithScore=pass;KQG.Compare.Results=1;KQG.Compare.Function=avg",
       "bounds": {
         "top": 0,
         "left": 0,
