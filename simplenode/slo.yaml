@@ -60,7 +60,7 @@ objectives:
     - <1000
   weight: 2
   key_sli: false
-- sli: svc_rt_p95_simplenode.prod.primary
+- sli: svc_rt_p95_simplenode.prod.canary
   pass:
   - criteria:
     - <+10%
@@ -68,7 +68,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: svc_rt_p95_simplenode.prod.canary
+- sli: svc_rt_p95_simplenode.prod.primary
   pass:
   - criteria:
     - <+10%
@@ -92,14 +92,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: svc_rt_p50_simplenode.prod.primary
-  pass:
-  - criteria:
-    - <+10%
-    - <500
-  warning: []
-  weight: 1
-  key_sli: false
 - sli: svc_rt_p50_simplenode.prod.canary
   pass:
   - criteria:
@@ -108,15 +100,14 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_fr_invoke
+- sli: svc_rt_p50_simplenode.prod.primary
   pass:
   - criteria:
-    - <5
-  warning:
-  - criteria:
-    - <10
+    - <+10%
+    - <500
+  warning: []
   weight: 1
-  key_sli: true
+  key_sli: false
 - sli: teststep_fr_Basic_Check
   pass:
   - criteria:
@@ -136,6 +127,15 @@ objectives:
   weight: 1
   key_sli: true
 - sli: teststep_fr_homepage
+  pass:
+  - criteria:
+    - <5
+  warning:
+  - criteria:
+    - <10
+  weight: 1
+  key_sli: true
+- sli: teststep_fr_invoke
   pass:
   - criteria:
     - <5
