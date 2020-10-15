@@ -3,7 +3,7 @@
     "configurationVersions": [
       3
     ],
-    "clusterVersion": "1.203.136.20201006-111014"
+    "clusterVersion": "1.204.79.20201013-115444"
   },
   "id": "311f4aa7-5257-41d7-abd1-70420500e1c8",
   "dashboardMetadata": {
@@ -39,9 +39,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Event Loop Tick Frequency;sli=node_tickfreq;pass=\u003e5000;warning=\u003e3000",
@@ -82,9 +82,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Response Time;sli=teststep_rt;pass=\u003c500;warning=\u003c1000;weight=2",
@@ -132,9 +132,9 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -145,7 +145,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -163,9 +163,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P95);sli=svc_rt_p95;pass=\u003c+10%,\u003c600;",
@@ -213,9 +213,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P90);sli=svc_rt_p90;pass=\u003c+10%,\u003c550",
@@ -263,9 +263,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Response time (P50);sli=svc_rt_p50;pass=\u003c+10%,\u003c500",
@@ -313,9 +313,9 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -326,7 +326,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -344,9 +344,9 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -357,7 +357,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -375,9 +375,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Failure Rate;sli=teststep_fr;pass=\u003c5;warning=\u003c10;key=true",
@@ -425,9 +425,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Service Calls;sli=teststep_svccalls;pass=\u003c2;warning=\u003c5",
@@ -475,9 +475,9 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -488,7 +488,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -506,9 +506,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Process Memory;sli=process_memory",
@@ -549,9 +549,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Process CPU;sli=process_cpu;pass=\u003c20;warning=\u003c50;key=true",
@@ -592,9 +592,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Response Time",
@@ -642,9 +642,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Failure Rate",
@@ -692,9 +692,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
         "customName": "Test Step Service Calls",
@@ -742,9 +742,9 @@
         "height": 38
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -755,7 +755,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -773,9 +773,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -786,7 +786,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -804,9 +804,9 @@
         "height": 228
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -817,7 +817,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     },
     {
@@ -835,9 +835,9 @@
         "height": 76
       },
       "tileFilter": {
-        "timeframe": null,
-        "managementZone": null
+        "timeframe": ""
       },
+      "assignedEntities": null,
       "filterConfig": {
         "type": "",
         "customName": "",
@@ -848,7 +848,7 @@
           "series": null,
           "resultMetadata": {}
         },
-        "filtersPerEntityType": {}
+        "filtersPerEntityType": null
       }
     }
   ]
