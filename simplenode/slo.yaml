@@ -108,15 +108,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_fr_invoke
-  pass:
-  - criteria:
-    - <5
-  warning:
-  - criteria:
-    - <10
-  weight: 1
-  key_sli: true
 - sli: teststep_fr_Basic_Check
   pass:
   - criteria:
@@ -136,6 +127,15 @@ objectives:
   weight: 1
   key_sli: true
 - sli: teststep_fr_homepage
+  pass:
+  - criteria:
+    - <5
+  warning:
+  - criteria:
+    - <10
+  weight: 1
+  key_sli: true
+- sli: teststep_fr_invoke
   pass:
   - criteria:
     - <5
