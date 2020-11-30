@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/managed-by: Keptn
         app.kubernetes.io/name: simplenode-primary
         app.kubernetes.io/part-of: keptn07project
-        app.kubernetes.io/version: 4.0.0
+        app.kubernetes.io/version: 3.0.0
     spec:
       containers:
       - env:
@@ -38,7 +38,7 @@ spec:
             fieldRef:
               fieldPath: metadata.labels['deployment']
         - name: CONTAINER_IMAGE
-          value: docker.io/grabnerandi/simplenodeservice:4.0.0
+          value: docker.io/grabnerandi/simplenodeservice:3.0.0
         - name: KEPTN_PROJECT
           value: keptn07project
         - name: KEPTN_STAGE
@@ -47,7 +47,7 @@ spec:
           value: simplenode
         - name: KEPTN_DEPLOYMENT
           value: canary
-        image: docker.io/grabnerandi/simplenodeservice:4.0.0
+        image: docker.io/grabnerandi/simplenodeservice:3.0.0
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
