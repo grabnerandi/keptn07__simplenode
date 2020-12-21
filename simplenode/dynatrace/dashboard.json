@@ -3,7 +3,7 @@
     "configurationVersions": [
       3
     ],
-    "clusterVersion": "1.207.174.20201208-164048"
+    "clusterVersion": "1.207.193.20201217-110433"
   },
   "id": "1c00963a-1059-4d9c-af4d-fa4030dfcb60",
   "dashboardMetadata": {
@@ -41,6 +41,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -84,6 +85,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -134,6 +136,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
@@ -165,6 +168,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -215,6 +219,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -265,6 +270,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -315,6 +321,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
@@ -346,6 +353,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
@@ -377,6 +385,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -427,6 +436,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -477,6 +487,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
@@ -508,6 +519,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -551,6 +563,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -594,6 +607,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -644,6 +658,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -694,6 +709,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "MIXED",
@@ -744,6 +760,7 @@
       "tileFilter": {
         "timeframe": ""
       },
+      "queries": null,
       "assignedEntities": null,
       "filterConfig": {
         "type": "",
