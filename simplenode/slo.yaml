@@ -63,42 +63,6 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: teststep_svccalls_invoke
-  pass:
-  - criteria:
-    - <2
-  warning:
-  - criteria:
-    - <5
-  weight: 1
-  key_sli: false
-- sli: teststep_svccalls_echo
-  pass:
-  - criteria:
-    - <2
-  warning:
-  - criteria:
-    - <5
-  weight: 1
-  key_sli: false
-- sli: teststep_svccalls_homepage
-  pass:
-  - criteria:
-    - <2
-  warning:
-  - criteria:
-    - <5
-  weight: 1
-  key_sli: false
-- sli: teststep_svccalls_version
-  pass:
-  - criteria:
-    - <2
-  warning:
-  - criteria:
-    - <5
-  weight: 1
-  key_sli: false
 - sli: process_memory
   pass: []
   warning: []
