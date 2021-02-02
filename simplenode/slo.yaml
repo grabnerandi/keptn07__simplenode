@@ -15,7 +15,7 @@ objectives:
     - '>3000'
   weight: 1
   key_sli: false
-- sli: svc_rt_p95_simplenode.prod.canary
+- sli: svc_rt_p95
   pass:
   - criteria:
     - <+10%
@@ -23,15 +23,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: svc_rt_p95_simplenode.prod.primary
-  pass:
-  - criteria:
-    - <+10%
-    - <600
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p90_simplenode.prod.canary
+- sli: svc_rt_p90
   pass:
   - criteria:
     - <+10%
@@ -39,23 +31,7 @@ objectives:
   warning: []
   weight: 1
   key_sli: false
-- sli: svc_rt_p90_simplenode.prod.primary
-  pass:
-  - criteria:
-    - <+10%
-    - <550
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_simplenode.prod.canary
-  pass:
-  - criteria:
-    - <+10%
-    - <500
-  warning: []
-  weight: 1
-  key_sli: false
-- sli: svc_rt_p50_simplenode.prod.primary
+- sli: svc_rt_p50
   pass:
   - criteria:
     - <+10%
