@@ -3,9 +3,9 @@ indicators:
   node_tickfreq: MV2;Count;metricSelector=builtin:tech.nodejs.uvLoop.count:merge(1):merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
   process_cpu: MV2;Percent;metricSelector=builtin:tech.generic.cpu.usage:merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
   process_memory: MV2;Byte;metricSelector=builtin:tech.generic.mem.workingSetSize:merge(0):avg:names&entitySelector=type(PROCESS_GROUP_INSTANCE),mzId(-4317453135721494243)
-  svc_rt_p50_simplenode.staging.direct: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(50.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243),entityId(SERVICE-AEDAB60ECA20AAEE)
-  svc_rt_p90_simplenode.staging.direct: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(90.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243),entityId(SERVICE-CD6E0CB38D1F38CF)
-  svc_rt_p95_simplenode.staging.direct: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(95.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243),entityId(SERVICE-CD6E0CB38D1F38CF)
+  svc_rt_p50: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(50.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243)
+  svc_rt_p90: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(90.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243)
+  svc_rt_p95: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(95.000000):names&entitySelector=type(SERVICE),mzId(-4317453135721494243)
   teststep_fr_Basic_Check: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
     Step,Basic Check))&entitySelector=type(SERVICE),mzId(-4317453135721494243)
   teststep_fr_echo: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
