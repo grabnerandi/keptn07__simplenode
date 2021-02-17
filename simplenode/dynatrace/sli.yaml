@@ -9,6 +9,8 @@ indicators:
   svc_rt_p90_simplenode.prod.primary: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(90.000000):names&entitySelector=type(SERVICE),mzId(5187714162434089048),entityId(SERVICE-086C46F600BA1DC6)
   svc_rt_p95_simplenode.prod.canary: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(95.000000):names&entitySelector=type(SERVICE),mzId(5187714162434089048),entityId(SERVICE-76D635A67C8D59CB)
   svc_rt_p95_simplenode.prod.primary: MV2;MicroSecond;metricSelector=builtin:service.response.time:percentile(95.000000):names&entitySelector=type(SERVICE),mzId(5187714162434089048),entityId(SERVICE-086C46F600BA1DC6)
+  teststep_fr_Basic_Check: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
+    Step,Basic Check))&entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_fr_echo: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
     Step,echo))&entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_fr_homepage: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
@@ -17,6 +19,18 @@ indicators:
     Step,invoke))&entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_fr_version: MV2;Percent;metricSelector=calc:service.teststepfailurerate:merge(0):avg:names:filter(eq(Test
     Step,version))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_Basic_Check: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,Basic Check))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_echo: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,echo))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_homepage: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,homepage))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_invoke: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,invoke))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_rt_version: MV2;MicroSecond;metricSelector=calc:service.teststepresponsetime:merge(0):avg:names:filter(eq(Test
+    Step,version))&entitySelector=type(SERVICE),mzId(5187714162434089048)
+  teststep_svccalls_Basic_Check: MV2;Count;metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
+    Step,Basic Check))&entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_svccalls_echo: MV2;Count;metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
     Step,echo))&entitySelector=type(SERVICE),mzId(5187714162434089048)
   teststep_svccalls_homepage: MV2;Count;metricSelector=calc:service.teststepservicecalls:merge(0):avg:names:filter(eq(Test
