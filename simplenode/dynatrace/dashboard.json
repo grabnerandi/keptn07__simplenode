@@ -3,7 +3,7 @@
     "configurationVersions": [
       3
     ],
-    "clusterVersion": "1.210.92.20210209-151321"
+    "clusterVersion": "1.211.90.20210216-141629"
   },
   "id": "311f4aa7-5257-41d7-abd1-70420500e1c8",
   "dashboardMetadata": {
@@ -11,7 +11,7 @@
     "shared": true,
     "owner": "andreas.grabner@dynatrace.com",
     "sharingDetails": {
-      "linkShared": true,
+      "linkShared": false,
       "published": false
     },
     "dashboardFilter": {
