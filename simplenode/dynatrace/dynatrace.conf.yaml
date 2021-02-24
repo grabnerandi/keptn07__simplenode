@@ -3,7 +3,6 @@ spec_version: '0.1.0'
 attachRules:
   tagRule:
   - meTypes:
-    - SERVICE
     - PROCESS_GROUP_INSTANCE
     tags:
     - context: CONTEXTLESS
